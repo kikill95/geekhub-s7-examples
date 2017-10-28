@@ -18,10 +18,11 @@ Array.prototype.mySort = function (callback) {
       i -= 2
     }
   }
+
   return this
 }
 
-var inputArray = [ 5, 4, 3, 2, 19, 3, 2, 1, 4, 7, 6, 5, 8, 'a', 'B', 'A', 'name']
+var inputArray = [5, 4, 3, 2, 19, 3, 2, 1, 4, 7, 6, 5, 8, 'a', 'B', 'A', 'name']
 // [3, undefined, 1, null, NaN, 'Apple', NaN, 2, 'a2', true, '2a', false, 'apple']
 // ['Z', 'a', 1, 1, 2, -2, -2, 1, 5, 'A', 'b', 123, -2, -2, 3, -1]
 // ['Name', 9, 3, 2, 1, 4, 7, 6, 5, 8, 'a', 'B', 'A']

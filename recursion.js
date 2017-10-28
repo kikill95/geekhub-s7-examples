@@ -68,6 +68,7 @@ getMessages(comments)
 
 // example 2
 function factorial(number) {
+  console.log(number)
   if (number <= 0) {
     return 1
   } else {
