@@ -4,9 +4,29 @@
   <title>GeekHub</title>
 </head>
 <body>
-  <h1>Open console</h1>
   <!-- <script src="./sort.js"></script> -->
   <!-- <script src="./recursion.js"></script> -->
-  <script src="./sessionStorage.js"></script>
+  <!-- <script src="./sessionStorage.js"></script> -->
+
+  <style>
+    #list li {
+      margin: 6px 0;
+    }
+    #list li:hover {
+      background: grey;
+    }
+  </style>
+  <h1>List</h1>
+  <ul id="list">
+    <li data-content="Item 1 Content">Item 1</li>
+    <li data-content="Item 2 Content">Item 2</li>
+    <li data-content="Item 3 Content">Item 3</li>
+    <li data-content="Item 4 Content">Item 4</li>
+    <li data-content="Item 5 Content">Item 5</li>
+    <li data-content="Item 6 Content">Item 6</li>
+  </ul>
+  <h2>Chosen element is: <span id="chosen" style="color: red;"></span></h2>
+
+  <script src="./delegation.js"></script>
 </body>
 </html>
